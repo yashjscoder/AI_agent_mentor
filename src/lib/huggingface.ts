@@ -1,5 +1,5 @@
 import { InferenceClient } from "@huggingface/inference";
-console.log("API Key Loaded in Deploy:", import.meta.env.VITE_HUGGINGFACE_API_KEY);
+
 
 const client = new InferenceClient(import.meta.env.VITE_HUGGINGFACE_API_KEY);
 
